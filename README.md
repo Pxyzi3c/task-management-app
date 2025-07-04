@@ -58,5 +58,5 @@ pip install -r requirements.txt
 ### 5. Run the application
 
 ```
-python -m src.main.py
+python -m src.main
 ```
