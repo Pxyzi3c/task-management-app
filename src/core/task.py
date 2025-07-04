@@ -9,5 +9,12 @@ class Task:
         self.status = status
         self.created_at = datetime.utcnow()
 
-    def to_dict(self):
-        return self.__dict__
+    def to_tuple(self):
+        return (
+            self.title,
+            self.description,
+            self.due_date,
+            self.priority,
+            self.status,
+            self.created_at
+        )
